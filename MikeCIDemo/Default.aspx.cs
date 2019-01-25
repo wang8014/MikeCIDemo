@@ -16,11 +16,11 @@ namespace MikeCIDemo
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            this.Label1.Text = TestFunktion().ToString();
+            this.Label1.Text = TestFunktion().ToString() + " updated time:" + System.DateTime.Now.ToString();
         }
         public static int TestFunktion()
         {
-            return 30;
+            return 40;
         }
     }
 }
