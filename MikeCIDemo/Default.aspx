@@ -12,7 +12,7 @@
             This is Mike default page
             <br />
             The result of test funtion is
-            <asp:Label ID="Label1" runat="server" Text="unknown"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="unknown" ForeColor="#0000CC"></asp:Label>
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Get the answer" />
         </div>
