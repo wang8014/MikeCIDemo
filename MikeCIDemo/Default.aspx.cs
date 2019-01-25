@@ -20,7 +20,7 @@ namespace MikeCIDemo
         }
         public static int TestFunktion()
         {
-            return 40;
+            return 50;
         }
     }
 }
